@@ -50,7 +50,7 @@ print(geo.crs)
 
 
 # YOUR CODE HERE 4 to join the tables
-geodata = None
+geodata = geo.join(data)
 
 #TEST CODE
 # Check the join output
@@ -74,7 +74,8 @@ print("Geocoded output is stored in this file:", out_fp)
  
 
 # YOUR CODE HERE 6 to create a new column
-
+#Start by creating a new column called buffer to geodata GeoDataFrame
+geodata['buffer']=None
 # YOUR CODE HERE 7 to set buffer column
 
 #TEST CODE
