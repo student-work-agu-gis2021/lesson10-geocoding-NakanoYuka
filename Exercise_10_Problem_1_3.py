@@ -77,7 +77,8 @@ print("Geocoded output is stored in this file:", out_fp)
 #Start by creating a new column called buffer to geodata GeoDataFrame
 geodata['buffer']=None
 # YOUR CODE HERE 7 to set buffer column
-
+#Calculate a 1.5 km buffer and  Store the buffer geometry
+geodata['buffer'] = geodata['geometry'].buffer(distance=1500)
 #TEST CODE
 print(geodata.head())
 
