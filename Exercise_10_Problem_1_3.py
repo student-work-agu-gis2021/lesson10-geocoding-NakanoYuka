@@ -125,11 +125,12 @@ print(pop.head(3))
 # YOUR CODE HERE 11 to report how many people live within 1.5 km distance from each shopping center
 
 # **Reflections:**
-#     
 # - How challenging did you find problems 1-3 (on scale to 1-5), and why?
+# Too difficult for me.
 # - What was easy?
+#creating a new column
 # - What was difficult?
-
+#To read data in webpage.
 # YOUR ANSWER HERE
 
 # Well done!
