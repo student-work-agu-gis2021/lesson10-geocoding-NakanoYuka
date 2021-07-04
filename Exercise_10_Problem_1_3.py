@@ -10,9 +10,10 @@
 import geopandas as gpd
 import pandas as pd
 # Read the data (replace "None" with your own code)
-data = None
+data=pd.read_table('shopping_centers.txt',sep=';',header=None)
 # YOUR CODE HERE 1 to read the data
-
+# Read shopping_centers.txt
+data.columns=['id','name','addr']
 #TEST COEE
 # Check your input data
 print(data)
